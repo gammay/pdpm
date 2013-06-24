@@ -22,3 +22,5 @@ PDPM:
 * Report Format is HTML, which means it can be viewed in any browser and no special GUI to get used to
 * Configurable: add custom applications to track
 * Free to use (PDPM is opensource, licensed under GPL)
+
+See screenshots and more: http://pdpm.sourceforge.net/
