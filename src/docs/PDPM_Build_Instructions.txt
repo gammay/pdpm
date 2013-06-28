@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Overview
+--------
+PDPM has 3 components:
+1. PDPM Collector
+- Collects application usage samples and save them into log file (dat-*.pdp) extension) in Logs folder
+2. PDPM Reporter
+- Processes a log file into rep-*.pdp file
+- Processes rep file to html report
+3. PDPM Installer
+- To install and uninstall PDPM
+
+Please see pdpm_under_the_hood.gif.
+
+
+-------------------------------------------------------------------------------
+Pre-requisites
+--------------
+1. PDPM Collector
+- Visual C++ 6.0 on Windows box
+- (TODO: to convert to Visual Studio Express, which is free)
+2. PDPM Reporter
+- Java SDK: Download from http://developers.sun.com/downloads/ (J2SE version 5 or above)
+3. PDPM Installer
+- NSIS installer: Download from http://nsis.sourceforge.net/Download (Version 2.40 or higher)
+- NSIS Processes Plug-in: http://nsis.sourceforge.net/Processes_plug-in
+
+4. Download and unzip the PDPM source package. All paths mentioned below are relative to pdpm root folder.
+
+-------------------------------------------------------------------------------
+Build and Test Instructions
+---------------------------
+
+1. PDPM Collector
+- Open the workspace PDPM_Collector.dsw in Visual C++ and build
+- The other workspace PDPM_Collector_Console.dsw is for debugging, uses the same files, but this builds a project with console, so that you can use printfs for debugging.
+
+To run PDPM Collector:
+- Copy the file cfg-pdpm.pdp from PDPM Reporter folder to the PDPM Collector folder
+- Run or debug the PDPM Collector exe from VC++ IDE
+
+2. PDPM Reporter
+- Open the file build.bat in an editor and configure JDK path (JAVAC_PATH)
+- Open a command prompt and run build.bat, which creates pdpm.jar
+
+To test Test_Logs:
+- Create folders Logs and Reports under PDPM_Reporter
+- Copy logs from Test_Logs to Logs folder
+- Configure Set-Java-Path.bat to point to JRE (or JDK) java.exe location
+- Open command prompt and run
+Generate-Report.bat <log file name>
+- Repeat for each log file
+
+3. PDPM Installer:
+- In folder PDPM_Installer open bld-info.pdp in editor and configure build version
+- Double-click copy_files.bat to copy files required for installation into PDPM_Installer folder (PDPM Collector and Reporter should already be built)
+- Right-click on pdpm_installer.nsi and select "Compile NSIS script"
+- pdpm_setup.exe is produced which can be run to install PDPM
+
+Contact: email.pdpm@gmail.com
+http://pdpm.sourceforge.net

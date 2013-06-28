@@ -1,0 +1,21 @@
+# PDPM Config File
+# This is a generated file, DO NOT edit manually
+
+PDPM_FILES_PATH
+NAME="PDPM File Path"
+DESCRIPTION="Location where PDPM log files will be stored"
+TYPE=FOLDER_SELECTION
+VALUE="Logs"
+
+PDPM_REPORTS_PATH
+NAME="PDPM Report Path"
+DESCRIPTION="Location where PDPM Report files will be stored"
+TYPE=FOLDER_SELECTION
+VALUE="Reports"
+
+PDPM_DELETE_OLD_LOGS
+NAME="Delete Old Log Files?"
+DESCRIPTION="If PDPM should delete the log files after a report is generated. Set this option to save diskspace"
+TYPE=YES_NO
+VALUE=NO
+

@@ -1,0 +1,46 @@
+# PDPM Applications Configuration File
+# For modification by end-user. Add user-defined applications
+#  to this file as per the format specified below
+
+
+# Format:
+# Application EXE,Friendly Name,Category
+EXPLORER.EXE,Windows Explorer,Others
+EXCEL.EXE,Microsoft Excel,Documentation
+WINWORD.EXE,Microsoft Word,Documentation
+gvim.exe,VI Editor,Development
+MSDEV.EXE,Microsoft Visual Studio,Development
+OUTLOOK.EXE,Microsoft Outlook,Email
+firefox.exe,Mozilla Firefox,Browse
+iexplore.exe,Internet Explorer,Browse
+NMN.exe,New Mail Noitifier,Email
+cmd.exe,Command Line Shell,Others
+sh.exe,Command Line Shell,Others
+googletalk.exe,Google Talk,Chat
+Locked or Idle,Locked or Idle,Locked or Idle
+POWERPNT.EXE,Microsoft Powerpoint,Documentation
+AcroRd32.exe,Acrobat Reader,Others
+calc.exe,Calculator,Tools
+NOTEPAD.EXE,Notepad,Others
+msohelp.exe,Help File,Help File
+fdm.exe,Free Download Manager,Tools
+GoogleDesktopDisplay.exe,Google Desktop,Tools
+devenv.exe,Microsoft Development Environment,Development
+wmplayer.exe,Windows Media Player,Entertainment
+msnmsgr.exe,Microsoft Messenger,Chat
+mspaint.exe,Microsoft Paint,Documentation
+wordpad.exe,WordPad,Documentation
+mysql.exe,MySQL Command Line Client,Development
+Ypager.exe,Yahoo Messenger,Chat
+editplus.exe,Edit Plus,Delvelopment
+putty.exe,putty,Others
+vncviewer.exe,vncviewer,Network Connection
+msaccess.exe,Microsoft Access,Development
+mstsc.exe,Remote Desktop Connectivity,Network Connection
+aspnet_wp.exe,ASP.net VS 2003,Development
+7zFMn.exe,7zip,Tools
+communicator.exe,Office Communicator,Chat
+GoogleDesktop.exe,Google Desktop,Tools
+taskmgr.exe,Task Manager,Tools
+chrome.exe,Google Chrome,Browse
+

@@ -1,0 +1,18 @@
+1. This tool is distributed free of cost.
+
+2. You are free to use this tool for any purpose and in any environment
+   (home, office, school, ...), unless there is a restriction imposed by
+   your employer or sysadmin.
+
+3. The author(s) will feel happy if you can provide feedback on your
+   experiences - good or bad. You may use the 'Feedback' link under
+   Start Menu - PDPM or log on to http://pdpm.sourceforge.net
+
+4. The tool has been tested well and is known to be functional and useful,
+   and not cause any undue harm. However, it is not possible to
+   provide guarantees. Please file a bug report or leave a feedback,
+   if you face any issues.
+   
+Legalese: PDPM is an open source tool licensed under GPL (v2).
+   Full text of the license is available in install folder or
+   at http://www.gnu.org/licenses/gpl-2.0.html.
