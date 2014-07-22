@@ -24,3 +24,5 @@ PDPM:
 * Free to use (PDPM is opensource, licensed under GPL)
 
 See screenshots and more: http://pdpm.sourceforge.net/
+
+(C) PDPM is licensed under GPL v2
